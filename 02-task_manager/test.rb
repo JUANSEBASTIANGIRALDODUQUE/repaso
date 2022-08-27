@@ -4,12 +4,12 @@ DB.results_as_hash = true
 require_relative 'task'
 
 # READ (One)
-# task = Task.find(1)
-# puts task.title
+task = Task.find(1)
+puts task.title
 
 # CREATE
-# task = Task.new(title: "Fill the beers rack in the fridge", description: "Vegetables should be moved somewhere else.")
-# task.save
+task = Task.new(title: "Fill the beers rack in the fridge", description: "Vegetables should be moved somewhere else.")
+task.save
 
 # UPDATE
 # task = Task.find(3)
